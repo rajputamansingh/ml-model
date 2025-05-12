@@ -1,0 +1,19 @@
+# Streamlit Configuration File
+# Documentation: https://docs.streamlit.io/library/advanced-features/configuration
+
+[theme]
+primaryColor="#4285F4"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"
+
+[server]
+enableCORS=false
+enableXsrfProtection=true
+
+[browser]
+gatherUsageStats=false
+
+[logger]
+level="info"
